@@ -1,3 +1,98 @@
 * {
     font-family: "Work Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+header {
+    margin: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    /* border: 2px solid red; */
+}
+
+.website-contaner {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.web-color {
+    color: #FF5400;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: end;
+    align-items: end;
+}
+
+/* main */
+
+.fist-section {
+    margin: 32px 150px;
+    /* text-align: center; */
+    width: auto;
+    height: 500px;
+}
+
+.img {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/group\ 1.png);
+    /* background-attachment: fixed; */
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.Explore {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.all-para {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.input-boder {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: calc(100% - 200px);
+}
+.input-boder input {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.F-button{
+    height: 40px;
+    border-radius: 10px;
+    background: #FF5400; 
+    border: none; 
 }
