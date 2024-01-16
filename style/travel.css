@@ -375,11 +375,59 @@ main {
     display: flex;
     gap: 80px;
 }
+
 .lost ul li {
     padding: 20px 0px;
     color: black;
     font-weight: 700;
 }
-.new1{
+
+.new1 {
     margin-top: 40px;
+    font-weight: 800;
+}
+
+.position-2 {
+    position: absolute;
+    font-size: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight: 800;
+}
+
+/* section-lest */
+.section-lest {
+    display: flex;
+    gap: 30px;
+}
+
+.button-s-new1 {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.Newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 70px;
+}
+
+.Newsletter input {
+    width: 393px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 10px 0px;
+}
+.love{
+    margin-bottom: 20px;
 }
