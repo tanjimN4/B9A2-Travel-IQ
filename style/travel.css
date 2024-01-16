@@ -60,7 +60,7 @@ main {
 
 .fist-section {
     text-align: center;
-    width: auto;
+    width: 100%;
     height: 500px;
 }
 
@@ -467,12 +467,116 @@ footer {
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
     margin-left: 340px;
-    
+
 }
-.last-img{
+
+.last-img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.last-last{
+
+.last-last {
     padding-top: 30px;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        margin: 0px 0px;
+    }
+
+    header {
+        margin: 0px 0px;
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .input-boder {
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .input-boder input {
+        width: 100px;
+        flex-wrap: wrap;
+
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .tomato img {
+        width: 100%;
+    }
+
+    .img-container .img-1 img {
+        width: 100%;
+        align-content: center;
+    }
+
+    .Destination-img {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .section-lest {
+        flex-direction: column;
+    }
+
+    .life img {
+        width: 100%;
+    }
+
+    .Travel-com {
+        width: 150px;
+        height: 80px;
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+        transform: rotate(-25deg);
+        margin-top: -20px;
+        margin-left: 250px;
+    }
+
+    .Newsletter input {
+        width: 223px;
+        height: 40px;
+    }
+    .button-s-new1 {
+        width: 223px;}
+        .lost {
+            flex-direction: column;
+        }
+        .img-container img {
+            width: 100%;
+        }
+        .boder-p{
+            margin-left: 10px;
+            width: 90%;
+            top: 10px;
+            height: 450px;
+        }
+        .boder-s{
+            margin-left: 10px;
+            width: 90%;
+            top: 10px;
+            height: 450px;
+        }
+
+
+
 }
