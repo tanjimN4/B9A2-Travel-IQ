@@ -53,7 +53,7 @@ nav li a {
 
 .fist-section {
     margin: 32px 150px;
-    /* text-align: center; */
+    text-align: center;
     width: auto;
     height: 500px;
 }
@@ -73,26 +73,80 @@ nav li a {
     color: #FFF;
     font-weight: 800;
     font-size: 40px;
+    padding-top: 100px;
 }
 
 .all-para {
     color: #FFF;
     font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
 .input-boder {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: calc(100% - 200px);
+    padding: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
+
 .input-boder input {
     height: 40px;
     border-radius: 10px;
     border: none;
+    margin-right: 15px;
 }
-.F-button{
+
+.F-button {
     height: 40px;
-    border-radius: 10px;
-    background: #FF5400; 
-    border: none; 
+    width: 120px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+
+.popular-tours {
+    margin: 50px 140px;
+    display: flex;
+    gap: 50px;
+}
+
+.text-container {
+    margin-bottom: 50px;
+}
+.text-container p {
+    color: #424247;
+}
+
+.toure {
+    margin-bottom: 30px;
+    color: black;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+ul {
+    color: #424247;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+ul li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.R-button {
+    margin-top: 30px;
+    height: 50px;
+    width: 120px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
 }
