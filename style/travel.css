@@ -428,6 +428,51 @@ main {
     background: rgba(19, 19, 24, 0.05);
     margin: 10px 0px;
 }
-.love{
+
+.love {
     margin-bottom: 20px;
+}
+
+.Travel-com {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    transform: rotate(-25deg);
+    margin-top: -60px;
+    margin-left: 410px;
+}
+
+/* footer */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    height: 500px;
+}
+
+.last-conaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.bg-line {
+    width: 865px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-left: 340px;
+    
+}
+.last-img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.last-last{
+    padding-top: 30px;
 }
