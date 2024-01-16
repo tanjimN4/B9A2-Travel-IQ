@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+p {
+    color: #424247;
+}
+
 /* header */
 header {
     margin: 50px 120px;
@@ -118,6 +122,7 @@ nav li a {
 .text-container {
     margin-bottom: 50px;
 }
+
 .text-container p {
     color: #424247;
 }
@@ -130,13 +135,13 @@ nav li a {
     font-weight: 800;
 }
 
-ul {
+.text-container ul {
     color: #424247;
     padding-left: 20px;
     padding-right: 100px;
 }
 
-ul li {
+.text-container ul li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -149,4 +154,52 @@ ul li {
     border-radius: 8px;
     background: #FF5400;
     border: none;
+}
+
+.Destination {
+    margin: 50px 140px;
+    text-align: center;
+}
+
+.Choose {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.Choose-para {
+    margin-bottom: 40px;
+}
+
+.Destination-img {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.img-container {
+    position: relative;
+    height: auto;
+}
+
+.position {
+    position: absolute;
+    font-size: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight: 800;
+}
+
+/* <section class="Choose-details"> */
+.Choose-details img{
+    width: 64px;
+    height: 64px;
+}
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
