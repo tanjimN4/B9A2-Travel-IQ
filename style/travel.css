@@ -482,7 +482,7 @@ footer{
 
 @media screen and (max-width:600px) {
     main {
-        margin: 0px 0px;
+        margin: 0px 10px;
     }
 
     header {
@@ -509,9 +509,10 @@ footer{
     .input-boder input {
         width: 100px;
         flex-wrap: wrap;
+        margin-top: 10px;
 
     }
-
+    .F-button {margin-top: 10px;}
     .img {
         width: 100%;
     }
@@ -582,5 +583,47 @@ footer{
 
 }
 @media screen and (min-width:992px) and (max-width:1500px) {
+    main{
+        margin: 0px 10px;
+    }
+    .website-contaner {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .input-boder input {margin-top: 5px;}
+    .F-button {margin-top: 5px;}
+    .tomato img {
+        width: 300px;
+    }
+    .Destination-img {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .img-container .img-1 img {
+        width: 100%;
+        align-content: center;
+    }
+    .section-lest {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Newsletter {
+            margin: 20px 170px;}
+            .lost {
+                flex-direction: column;
+                align-items: center;}
+     .boder-p{
+        margin-left: 50px;
+        width: 90%;
+        top: 10px;
+        height: 450px;
+    }
+    .boder-s{
+        /* margin-left: 10px; */
+        align-items: center;
+        width: 90%;
+        top: 10px;
+        height: 450px;
+    }     
     
 }
